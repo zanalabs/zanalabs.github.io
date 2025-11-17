@@ -1,5 +1,3 @@
-Privacy Policy for فەرهەنگی ناوی کوردی (Kurdish Names Dictionary)
-
 # Kurdish Names Dictionary – Privacy Policy
 
 **Effective date:** 14 November 2025  
