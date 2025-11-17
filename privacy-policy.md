@@ -1,269 +1,141 @@
 Privacy Policy for فەرهەنگی ناوی کوردی (Kurdish Names Dictionary)
 
-Last updated: 17 November 2025
+# Kurdish Names Dictionary – Privacy Policy
 
-Kurdish Names Dictionary (“we”, “us”, or “our”) respects your privacy and is designed to collect as little information about you as possible. This Privacy Policy explains what data we collect, how we use it, and what choices you have when you use the Kurdish Names Dictionary mobile application (the “App”).
+**Effective date:** 14 November 2025  
+**Last updated:** 14 November 2025
 
-By using the App, you agree to the practices described in this Policy.
+Kurdish Names Dictionary ("we", "our", "the app") is created and maintained by Zana Labs. We try to collect as little information as possible. This page explains:
 
-1. Overview
+- what we collect
+- how we use it
+- how long we keep it
+- how you can contact us
 
-Our main goals are:
+---
 
-to provide a high-quality Kurdish names dictionary,
+## 1. What we collect
 
-to understand which names are popular in different languages/locales, and
+### 1.1 Anonymous usage information
+When you use the app, we collect anonymous statistics such as:
 
-to do this without tracking individual users or devices.
+- how often a name is liked or shortlisted
+- how often the app is opened
+- which features are used (for example, viewing meanings or using search)
 
-To achieve this, we only collect:
+We also use your device language and region (for example `ku-IQ`, `en-AU`) to understand which names are popular in different places.
 
-Anonymous, aggregate usage statistics, and
+These statistics are stored only as totals (counters). We do **not** attach your name, email, account, or device ID to them. We don’t know which specific person liked which name – we only know, for example, “this name was liked 123 times from this language/region”.
 
-An optional email address if you choose to contact us and explicitly consent to us using it to reply.
+### 1.2 Suggestions you send us ("My suggestions")
+If you suggest a new name, add a meaning, or suggest that a name is unisex, we store:
 
-We do not store user IDs, device IDs, advertising IDs, or IP-based location for analytics.
+- the text you submitted (name, meaning, references, etc.)
+- when it was submitted
+- simple technical info like app version, language, and platform
 
-2. Data We Collect
-2.1 Anonymous Usage Statistics
+To show your own suggestions back to you in the “My suggestions” section, the app uses an internal anonymous identifier that stays on your device. This lets us know which device created which suggestion so we can show it to you again.
 
-We collect anonymous, aggregate counts about how the App is used. For example:
+We do not ask for your real name or email in the suggestion form, and we do not use this internal identifier for advertising or analytics.
 
-how many times a particular name is liked or shortlisted, and
+### 1.3 Contact & support messages
+If you use the “Contact us” form, we collect:
 
-how many app opens or feature uses occur per locale.
+- the message you write
+- basic technical info (for example, device type, app version, language/region)
+- optional email address, only if you choose to provide it and tick the checkbox that lets us use it to reply
 
-These statistics are stored as counters only, in structures such as:
+If you don’t tick the checkbox, your email is not stored and we can’t reply, but we can still read your feedback anonymously.
 
-name_locale_stats/{nameDocId} – total likes/shortlists per locale
+### 1.4 Ads (AdMob) and crash reports
+**Ads** – The app shows banner ads using Google AdMob. AdMob’s SDK may collect information such as:
 
-app_stats/{yyyyMMdd} – total app opens per locale (if enabled)
+- device identifiers
+- approximate location
+- IP address
+- which ads you see and tap
 
-We do not store any:
+This is handled by Google’s systems to show and measure ads. You can control personalised ads using your device’s ad settings (Android/iOS) and any consent screens shown in the app.
 
-user identifiers,
+**Crash reports** – We may use Firebase Crashlytics (or similar tools) to understand when the app crashes. Crash reports can include:
 
-device identifiers, or
+- device model and operating system
+- app version and language
+- technical details of the error (stack trace)
 
-per-event logs tied to an individual.
+Crash reports are used only to fix bugs and improve stability. They do not include the names or meanings you type into the app.
 
-Multiple actions from the same device only increase aggregate totals; they cannot be traced back to a specific person.
+---
 
-2.2 Locale & Language Information
+## 2. What we do not collect
+We deliberately do not collect:
 
-We use the device’s locale and language (for example, ku_IQ, en_AU) as a proxy for “region” when aggregating the anonymous statistics above.
+- your real name, address, or phone number
+- your contacts, photos, microphone, or camera data
+- GPS location or Wi-Fi location
+- detailed IP address logs in our own database
+- a login account for normal users (no username/password)
 
-Locale strings are used only as keys for counters (e.g. “likes of this name in ku_IQ”).
+We also do not create advertising profiles based on what names you view or shortlist inside the app.
 
-Locale data comes from OS APIs (e.g. PlatformDispatcher.instance.locale), not from IP lookup, GPS, or Wi-Fi.
+---
 
-Locale strings are never stored with any user or device identifier.
+## 3. How we use your information
+We use the information described above to:
 
-2.3 Support Communications (“Contact us”)
+- **Run the app** – show you Kurdish names and meanings, let you like and shortlist names, and keep your suggestions visible in “My suggestions”.
+- **Improve the app** – see which names and features are used most (anonymously) and decide what to improve or add next.
+- **Moderate suggestions** – review and approve/reject suggested names and meanings, and keep a basic history of what has been changed.
+- **Help you when you ask for support** – read and respond to messages sent via the contact form, fix bugs, and understand problems you report.
+- **Show ads and fix crashes** – display banner ads via AdMob and analyse crash reports to improve stability.
 
-If you choose to use the in-app “Contact us” form, we collect:
+We do not sell your data.
 
-Message content – whatever you type into the message field (required).
+---
 
-Optional email address – only if you tick a consent checkbox authorising us to use it to reply.
+## 4. How long we keep information
 
-Metadata, such as:
+- **Anonymous usage statistics** – kept indefinitely as aggregated counters that aren’t linked to individuals.
+- **Suggestions** – kept with their moderation history as part of the dictionary’s change log.
+- **Support messages and emails** – kept until your issue is resolved, then for up to one year. We delete them sooner if you ask.
+- **Ads and crash logs** – stored by Google AdMob and Crashlytics according to their policies; we don’t control those retention periods.
 
-locale (e.g. ku_IQ, en_AU),
+---
 
-app version,
+## 5. Children’s privacy
+The app is not directed to children under 16. We do not knowingly collect personal information (such as email addresses) from children under 16. If you are a parent or guardian and believe your child has provided personal data through the app, please contact us and we will delete it as soon as we can.
 
-platform (Android/iOS), and
+---
 
-category (e.g. general, bug, suggestion).
+## 6. Where data is stored and who helps us
+We use services provided by Google Firebase and Google AdMob to host and operate the app. That means some data may be stored or processed on servers outside your country (for example, in the EU or US).
 
-This information is stored in a Firestore collection called support_requests.
+These services provide storage, authentication, crash reporting, and advertising. They have their own privacy and security protections and do not act on our instructions for anything beyond running these features.
 
-The email field is only saved when you give explicit consent (“I consent to sharing my email so the Kurdish Names team can reply”).
+We do not run our own data centres.
 
-We do not store any user or device IDs in support_requests.
+---
 
-2.4 Technical Diagnostics (If Enabled)
+## 7. Your choices
+You have a few simple choices:
 
-We may optionally use Firebase Crashlytics or similar tools to collect crash reports and error logs. If enabled, these tools may collect:
+- **Suggestions and support messages** – contact us and ask us to update or delete this data where it’s reasonable and technically possible.
+- **Email in the support form** – decide whether to share an email address. If you don’t tick the consent checkbox, we don’t store it.
+- **Ads and tracking** – use your device’s settings (Android/iOS) to limit personalised ads or reset your advertising ID. Any in-app consent prompts for ads will be respected.
 
-device and OS version,
+If you have questions or concerns about how your data is handled, you can always reach out to us.
 
-app version, and
+---
 
-technical details about the crash or error.
+## 8. Changes to this policy
+We may update this Privacy Policy when we add features or change how the app works. The “Last updated” date at the top shows when the most recent change was made. If we make significant changes, we may show a short notice inside the app or in the store listing.
 
-These diagnostics are used only for debugging and improving app stability. If we disable Crashlytics, this category does not apply.
+---
 
-3. What We Do Not Collect
+## 9. Contact us
+If you have any questions about this Privacy Policy or how we handle data, or if you want us to look up or delete suggestion/support data related to you, please contact:
 
-We intentionally avoid collecting identifying or sensitive data. In particular:
+**Kurdish Names Dictionary – Privacy**  
+Email: `kurdishnamesdic@gmail.com`
 
-No IP-based geolocation or GPS/Wi-Fi location.
-
-We do not perform public-IP lookups, and we do not store precise location (GPS or Wi-Fi).
-
-No persistent user IDs or device IDs.
-
-We do not create _anonymousId, advertising IDs, or similar identifiers for analytics.
-
-No names, phone numbers, or other personal data, unless you explicitly provide an email address in the support form and consent to its use so we can reply.
-
-All analytics are stored as anonymous, aggregate counters keyed by locale only.
-
-4. How We Use the Data
-4.1 Anonymous Usage Statistics & Locale Insights
-
-We use anonymous, aggregate statistics to:
-
-understand which names are popular per locale, and
-
-improve search, ranking, and overall app experience.
-
-Because these statistics are stored only as totals and cannot reasonably be linked to any individual, they are treated as anonymous data and do not fall under the definition of personal data in the GDPR sense.
-
-4.2 Support Communications
-
-We use support data to:
-
-read and triage your message,
-
-reply to you if you provided an email and consented, and
-
-track the status of support requests internally (e.g. open, in progress, closed).
-
-Legal basis: consent – we process your email address only when you explicitly agree (by ticking the checkbox) to let us use it to respond.
-
-4.3 Technical Diagnostics (If Enabled)
-
-If Crashlytics or similar diagnostics are turned on, we use crash reports and logs to:
-
-diagnose issues,
-
-improve stability and performance, and
-
-ensure the App works correctly across devices.
-
-Legal basis: legitimate interest in maintaining and improving the App.
-
-5. Data Sharing & Processors
-
-We do not sell or rent your data.
-
-We use third-party services as processors to operate the App:
-
-Firebase (Google Cloud) for:
-
-Firestore (data storage for aggregate stats and support requests),
-
-Authentication (if used),
-
-Crashlytics (if enabled), and
-
-possibly Firebase Analytics in future releases.
-
-These providers process data on our behalf under their data processing terms and are not allowed to use it for their own independent purposes.
-
-We may disclose data if required by law, regulation, or legal process, or to protect the rights, property, or safety of us, our users, or others.
-
-6. Retention
-
-Our retention rules follow our “minimal data” design:
-
-Anonymous aggregate statistics
-
-Stored indefinitely, as they contain no personal data and cannot be linked to individuals.
-
-Support communications (support_requests)
-
-Kept until we have resolved your issue, plus up to one year.
-
-After that, they are deleted as part of periodic admin reviews (and may in future be automatically removed via Firestore TTL).
-
-Crash logs and diagnostics (if enabled)
-
-Retained according to Firebase Crashlytics defaults, subject to their own data retention policies. We periodically review and adjust these settings as needed.
-
-If you ask us to delete a specific support request that includes your email address, we will delete it sooner where technically feasible.
-
-7. User Choices & Rights
-
-Because analytics are anonymous and do not involve personal data, most data-protection rights arise only in relation to support communications and any other personal data you choose to share (e.g. your email address).
-
-7.1 Sharing Your Email is Optional
-
-You can submit a support message without providing an email.
-
-If you do not tick the consent checkbox, your email will not be stored, and we will not be able to reply — but we can still see the feedback anonymously.
-
-7.2 Access and Deletion
-
-For the support messages that include personal data (your email):
-
-You can ask us to:
-
-confirm whether we hold any support data about you, and
-
-delete that data from our support system.
-
-To do this, contact us using the email address below and include the email address you used in the support form so we can locate the relevant request.
-
-7.3 Objection
-
-If you have concerns about how we handle support data (for example, your email address), you can contact us and object to further processing. We will assess your request and, where applicable, stop processing and delete your support data.
-
-8. Security
-
-We take reasonable measures to protect the data we handle. In particular:
-
-Security Rules: Firestore Security Rules restrict:
-
-aggregate counter updates to controlled paths, and
-
-support_requests read/update access to admin accounts only (identified via custom claims or entries in /admins/{uid}).
-
-Transport & storage:
-
-Data in transit is encrypted using HTTPS/TLS.
-
-Data at rest is encrypted by Firebase by default.
-
-Access control:
-
-We use least-privilege access, 2-factor authentication, and project separation to reduce the risk of unauthorised access.
-
-No method of transmission or storage is 100% secure, but we work to protect data in line with industry practices.
-
-9. International Data Transfers
-
-Firebase and other infrastructure providers may store and process data on servers located outside your country.
-
-Where applicable, these transfers rely on Google’s data-processing commitments and, if relevant, standard contractual clauses or similar safeguards.
-
-10. Children’s Privacy
-
-The App is not directed to children under 16.
-
-We do not knowingly collect personal data (such as email addresses) from children under 16.
-
-If we become aware that we have collected such data without appropriate consent, we will delete it promptly.
-
-If you are a parent or guardian and believe that your child has provided personal data via the support form, please contact us so we can take appropriate action.
-
-11. Changes to This Policy
-
-We may update this Privacy Policy from time to time as the App evolves or legal requirements change.
-
-When we make material changes, we will:
-
-update the “Last updated” date at the top of this page, and
-
-provide a suitable notice in the App (for example, through a banner, dialog, or release notes).
-
-Your continued use of the App after such changes take effect constitutes your acceptance of the updated Policy.
-
-12. Contact Us
-
-If you have any questions about this Privacy Policy or our data practices, or if you wish to exercise your rights regarding support communications, you can contact us at:
-
-Email: kurdishnamesdic@gmail.com
+Please only include the information we need to help you (for example, roughly when you contacted us or what your question was about).
