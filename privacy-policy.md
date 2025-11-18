@@ -23,7 +23,7 @@ When you use the app, we collect anonymous statistics such as:
 
 We also use your device language and region (for example `ku-IQ`, `en-AU`) to understand which names are popular in different places.
 
-These statistics are stored only as totals (counters). We do **not** attach your name, email, account, or device ID to them. We don’t know which specific person liked which name – we only know, for example, “this name was liked 123 times from this language/region”.
+To keep your liked names in sync and prevent duplicate likes, we store which anonymous app account liked which name using a random identifier from Firebase. We do not know your real identity, and we do not use this information for advertising. When we look at popularity statistics, we only look at totals (how many likes a name has per language/region), not at individual accounts.
 
 ### 1.2 Suggestions you send us ("My suggestions")
 If you suggest a new name, add a meaning, or suggest that a name is unisex, we store:
